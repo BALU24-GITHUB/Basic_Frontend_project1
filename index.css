@@ -1,0 +1,281 @@
+.color-navbar{
+    background-color: rgb(215, 220, 206);
+    
+}
+.navbarlogo{
+    width: 100px;
+}
+.items-right{
+    margin-left: auto;
+    font-size: 18px;
+    font-family: "roboto";
+}
+.search-btn{
+    padding-left: 10px;
+}
+
+.back-groundimage{
+    background-image: url("./flat-lay-arrangement-with-salad-box-sauce.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    place-content: center;
+    
+}
+.active{
+    font-size: "roboto";
+}
+.mainheading{
+    color:rgb(249, 252, 246);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.firstpage-paragraph{
+    font-family: "roboto";
+    font-size: 2rem;
+    color:rgb(22, 37, 17);
+}
+.custom-button {
+    color: white;
+    background-color: #4a72e9;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.custom-button:hover {
+    background-color:rgb(203, 64, 18);
+    
+
+}
+
+.custom-outline-button {
+    color:white;
+    background-color:green;
+    width: 130px;
+    height: 45px;
+    border-style: solid;                                                    
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+.custom-outline-button:hover{
+    background-color: rgb(186, 155, 68);
+}
+.whychoose-section{
+    background-color: #f9fbfe;
+    padding: 30px;
+}
+.whyhoose-heading{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.whyhoose-paragraph{
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.whychoose-card{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    margin: 20px;  
+}
+.explore-menu-section{
+    background-color: white;
+    padding: 10px;
+    
+}
+.menu-section-heading{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px;
+}
+.menu-item-card{
+    border-radius: 30px;
+   
+}
+.container-menu{
+    display: flex;
+    justify-content:space-evenly;
+      
+     
+}
+.menu-card-image{
+    border-radius: 25px;
+    width: 300px;
+}
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+.container-deli-pay{
+    background-color: rgb(216, 236, 230);
+    background-color: cover;
+    height: 100vh;
+}
+.Delivery-payment-image{
+    width: 500px;
+    height: px;
+}
+.container-payment-image{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+.container-payment{
+    padding: 10px;
+    margin: 30px;
+}
+.container-contact{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+.contact-mainheading{
+    font-family: sans-serif;
+    color: black;
+
+
+}
+.paragraph{
+    font-size: 20px;
+    font-family: "roboto";
+}
+.contactcard{
+    display: flex;
+    
+
+}
+.contact-left{
+    background-color:white;
+    padding: 40px;
+    margin: 0px;
+    
+
+    
+    
+    
+}
+.contact-right{
+    background-color: rgb(106, 174, 233);
+    color:white;
+    padding: 30px;
+    align-content: center;
+    font-size: 20px;
+    font-weight:500;
+    font-family: "roboto";
+    
+    
+   
+}
+
+.button-contact{
+    border: 4px solid;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(15, 47, 208);
+    border-radius:20px;
+     font-family: "roboto";
+    font-weight: 500;
+    padding: 10px;
+
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.footer-container{
+    background-image: url("./blank-white-paper-writing-recipe-tasty-ingredient-kitchen-top.jpg");
+    background-size: cover;
+    height: 90vh;
+    padding: 20px;
+   
+}
+.footer-col{
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column;
+    align-items:center;
+    padding:40px;
+}
+/* .headingfollow{
+        color:white;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 30px;
+} */
+/* .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+} */
+
+.footer-column{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+   
+}  
+
+/* .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+} */
+.icons{
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+    
+}
